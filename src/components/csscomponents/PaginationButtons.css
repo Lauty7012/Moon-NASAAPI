@@ -1,0 +1,26 @@
+/* CSS para los botones de paginación */
+
+.pagination-buttons button {
+  display: inline-block;
+  margin: 20px;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.pagination-buttons button.disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Cambio de color de fondo en el hover */
+.pagination-buttons button:hover {
+  background-color: #333; /* Cambia el color de fondo en el hover */
+}

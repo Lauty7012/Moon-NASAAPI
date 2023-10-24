@@ -1,0 +1,30 @@
+/* Estilos para la sección "About Us" */
+.about-us {
+  text-align: center;
+  background-color: #31343d; /* Cambio de color de fondo */
+  color: #fff;
+  font-family: "Times New Roman", sans-serif;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+/* Estilos para los títulos */
+.about-us h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #62a865; /* Cambio de color para títulos */
+}
+
+/* Estilos para el texto del párrafo */
+.about-us p {
+  font-size: 1rem;
+  margin: 1rem 0;
+  color: #949695; /* Cambio de color para el texto del párrafo */
+}
+
+/* Estilos para el texto de agradecimiento */
+.about-us h2:last-child {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: #f44336; /* Cambio de color para el último título */
+}

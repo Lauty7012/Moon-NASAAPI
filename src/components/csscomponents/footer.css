@@ -1,0 +1,55 @@
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #09a6d4;
+    color: #fff;
+    padding: 1rem;
+    gap: 1rem;
+    font-family: "Times New Roman", sans-serif;
+  }
+  
+  .copyright {
+    grid-column: span 2;
+    background-color: #244cb9;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  
+  .contact-logo {
+    max-width: 2rem;
+    margin: 0.5rem;
+    transition: transform 0.3s ease-in-out; /* Transición de tamaño al hacer hover */
+  }
+  
+  .contact-logo:hover {
+    transform: scale(1.1); /* Cambio de tamaño al hacer hover */
+  }
+  
+  /* Estilos para el texto de contacto */
+  .footer-column h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-column p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilos para el texto de derechos de autor */
+  .copyright p {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  
+  /* Estilos para los enlaces de contacto */
+  .contact-logo {
+    max-width: 2rem;
+    margin: 0.5rem;
+    transition: transform 0.3s ease-in-out; /* Transición de tamaño al hacer hover */
+  }
+  
+  .contact-logo:hover {
+    transform: scale(1.1); /* Cambio de tamaño al hacer hover */
+  }

@@ -1,0 +1,86 @@
+/* Estilos para las tarjetas (cards) */
+
+
+
+.card {
+ 
+  width: 190px;
+  height: 254px;
+  border-radius: 15px;
+  padding: 1em 2em;
+  background: rgb(5, 5, 22);
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  z-index: 2;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card:active {
+  border-width: 5px; /* Añade el borde al hacer clic */
+}
+
+/* Estilos existentes del archivo moon-image-gallery.css */
+.moon-image-gallery {
+  text-align: center;
+  padding: 20px;
+  background-color: #000020;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  justify-content: center; 
+}
+
+.image-item {
+  width: 100%; 
+  max-width: 300px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+  background-color: rgb(5, 5, 22);
+}
+
+.image-item p {
+  color: #fff;
+}
+
+.image-item:hover {
+  transform: scale(1.05);
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+
+.image-item img {
+  max-width: 100%;
+  max-height: 200px; 
+  object-fit: cover;
+  border-radius: 20px 20px 0 0; 
+}
+
+.image-item p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f8f8f8;
+  background-color: rgb(5, 5, 22);
+}
+
+@media (min-width: 768px) {
+  .image-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
