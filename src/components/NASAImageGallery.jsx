@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./csscomponents/moon-image-gallery.css";
 import FilterButtons from "./FilterButtons";
 import "./csscomponents/PaginationButtons.css";
-import { Link } from 'react-router-dom'; // Importa Link para la navegación
+import { Link } from 'react-router-dom'; 
 
 function NASAImageGallery() {
   const [images, setImages] = useState([]);
@@ -40,7 +40,7 @@ function NASAImageGallery() {
         ) : (
           filteredImages.map((item) => (
             <div key={item?.data?.[0]?.nasa_id} className="image-item card">
-              {/* En lugar de mostrar la imagen directamente, utiliza Link para navegar a los detalles */}
+              {}
               <Link to={`/object/${item?.data?.[0]?.nasa_id}`}>
                 <img src={item?.links?.[0]?.href} alt={item?.data?.[0]?.title} />
               </Link>
